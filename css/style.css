@@ -1,0 +1,39 @@
+.flex-wrap{
+     /* turn on flex */
+     display:flex; 
+     flex-wrap: wrap;/* Allows elements to flex to the next line  */
+
+}
+.flex-split{
+    /* Force two divs to split left and right justified relative to eachother */
+    justify-content: space-between;
+}
+
+.contact-info ul::first-line {
+    font-weight: bold;
+    
+}
+
+.main-content{
+    width: auto;
+    display: flex;  
+    flex-wrap: wrap;
+    border: solid blue 10px;
+}
+
+.main-left{
+    border: dashed red 5px;
+    display: flex;
+    width: calc(100% * 2 / 3); /* Force the width to be 2/3 of the page*/
+    /* As a result the right side will force to 1/3 the size*/
+}
+
+
+ .bio-section{
+    display: flex;
+    align-items: flex-start;
+} 
+
+.grid-container{
+
+}
