@@ -1,9 +1,24 @@
+:root{
+    --two-thirds: calc(100% * 2 / 3);
+    --one-third: calc(100% /3);
+}
+*{
+    /* Set all text font-size to 1% 
+    of the view port hieigh and width.
+    This allows the text to grow/shring with the window size*/
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+
 .flex-wrap{
      /* turn on flex */
      display:flex; 
      flex-wrap: wrap;/* Allows elements to flex to the next line  */
 
 }
+
+
 .flex-split{
     /* Force two divs to split left and right justified relative to eachother */
     justify-content: space-between;
@@ -15,25 +30,64 @@
 }
 
 .main-content{
-    width: auto;
-    display: flex;  
-    flex-wrap: wrap;
     border: solid blue 10px;
 }
 
 .main-left{
     border: dashed red 5px;
-    display: flex;
-    width: calc(100% * 2 / 3); /* Force the width to be 2/3 of the page*/
-    /* As a result the right side will force to 1/3 the size*/
+}
+.main-right {
+    border: dotted 3px lawngreen;
 }
 
 
- .bio-section{
-    display: flex;
-    align-items: flex-start;
-} 
 
-.grid-container{
+.main-grid-container{
+    /* Lays out the main page structure two have one left main
+    section and then one right main section side by side*/
+    display: grid;
+    /* 2fr is a fraction unit
+    2fr 1fr : create two columns where one column is twice the size of the other */
+    grid-template-columns:  2fr 1fr; /* col: up/down*/
+    grid-template-rows: auto;  /* row: left/ right */
+}
+
+
+.left-sub-grid-container{
     /* To Do*/
+    display: grid;
+    
+    grid-template-columns: 50% 50%; /* col: up/down*/
+    grid-template-rows: 100%; /* row: left/right */
+    background-color: coral;
 }
+footer{
+    height: 100px;
+}
+
+
+.bio-img img {
+    /* settign width & height to 100% in a CSS grid allows
+    an image to flex and grow/shrink as page is resized */
+    width: 100%;
+    height: 100%;
+    border: magenta 3px dashed;
+}
+.bio-text {
+    border: midnightblue 5px dashed;
+    
+}
+.main-bio{
+    border:mediumslateblue 3px solid;
+    color: red;
+}
+
+
+.grid-item{
+    border: black dashed 2px;
+}
+
+.flex-container-portfolio{
+    
+}
+
