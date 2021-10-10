@@ -19,6 +19,7 @@ body{
 }
 .nav{
     background-color: transparent;
+    
 }
 
 
@@ -61,7 +62,7 @@ body{
 
 
 .main-right {
-   
+    
     display:flex;
     align-items: flex-start;
     flex-direction: column;
@@ -149,9 +150,43 @@ footer{
 footer{
     border-top: 1px solid black;
 }
-footer ul{
+.flex-row-horizontal{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.alternate-education{
+    visibility: hidden;
+}
+@media screen and (max-width:575px) {
+    .main-right{
+        visibility:hidden;
+        color: blueviolet;
+    }
+    *{
+        
+        width: 100%;
+    }
+    .main-grid-container{
+        text-align: center;
+    }
+
+    .nav-contact-header{
+    
+        min-height: 90%;
+        min-width: 375px;
+        
+    }
+    .alternate-education{
+        visibility: visible;
+        
+    }
+    .alternate-education {
+        border-top: 1px black solid;
+        padding: 5px;
+        margin: 5;
+    }
+    
 }
