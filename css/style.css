@@ -8,8 +8,36 @@
     This allows the text to grow/shring with the window size*/
     font-size: 2vh;
     font-size: 2vw;
+    background-color:transparent;
+    padding: 5px;
+    margin: 5px;
+   
+    
+}
+body{
+    background-color: lightgray;
+}
+.nav{
+    background-color: transparent;
 }
 
+
+
+.nav-contact-header{
+    
+    color: white;
+    min-height: 300px;
+    align-items: center;
+    
+    
+    background-image: url("../images/golden-gate_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.nav-contact-header ul{
+    list-style: none;
+}
 
 .flex-wrap{
      /* turn on flex */
@@ -29,16 +57,36 @@
     
 }
 
-.main-content{
-    border: solid blue 10px;
+
+
+
+.main-right {
+   
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items:flex-start;
+    border-left: solid 2px black;
+    
+    
+    
+}
+.main-right p{
+    list-style: none;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.main-right h2{
+    border-top: solid 1px;
+    border-width: 100%;
+}
+.education-degree{
+    width: 100%;
+    
 }
 
-.main-left{
-    border: dashed red 5px;
-}
-.main-right {
-    border: dotted 3px lawngreen;
-}
 
 
 
@@ -48,18 +96,20 @@
     display: grid;
     /* 2fr is a fraction unit
     2fr 1fr : create two columns where one column is twice the size of the other */
-    grid-template-columns:  2fr 1fr; /* col: up/down*/
+    grid-template-columns:  3fr 1fr; /* col: up/down*/
     grid-template-rows: auto;  /* row: left/ right */
 }
 
 
+
 .left-sub-grid-container{
     /* To Do*/
+    
     display: grid;
     
-    grid-template-columns: 50% 50%; /* col: up/down*/
-    grid-template-rows: 100%; /* row: left/right */
-    background-color: coral;
+    grid-template-columns: 50% 50%; /* row: left/right */
+    grid-template-rows: auto;  /* row: left/right */
+    
 }
 footer{
     height: 100px;
@@ -69,25 +119,39 @@ footer{
 .bio-img img {
     /* settign width & height to 100% in a CSS grid allows
     an image to flex and grow/shrink as page is resized */
-    width: 100%;
-    height: 100%;
-    border: magenta 3px dashed;
-}
-.bio-text {
-    border: midnightblue 5px dashed;
+    width: 90%;
+    height: 90%;
     
-}
-.main-bio{
-    border:mediumslateblue 3px solid;
-    color: red;
-}
-
-
-.grid-item{
-    border: black dashed 2px;
-}
-
-.flex-container-portfolio{
     
 }
 
+
+.flex-container-portfolio div{
+    height: 40vh;
+    flex-grow: 1;
+    
+}
+
+.flex-container-portfolio img {
+    height: 90%;
+    width: 90%;
+     
+}
+.portfolio-section{
+    border-top: 1px solid black;
+}
+.flex-container-portfolio div:first-child{
+    min-width:100%;
+    opacity: 80%;
+    
+}
+
+footer{
+    border-top: 1px solid black;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
