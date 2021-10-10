@@ -23,7 +23,7 @@ body{
     
     color:lightgrey;
     min-height: 300px;
-    align-items: center; /* used to center text*/ 
+    align-items: center; /* used to center text */ 
     
     
     background-image: url("../images/golden-gate_wallpaper.jpg");
@@ -40,6 +40,7 @@ body{
      display:flex; 
      flex-wrap: wrap;/* Allows elements to flex to the next line  */
 
+     
 }
 
 
