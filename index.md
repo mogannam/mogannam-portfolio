@@ -114,7 +114,7 @@
     <ul class="flex-row-horizontal">
         <li>myEmail@email.com</li>
         <li><a href="https://www.linkedin.com/in/joemogannam/">linkedin.com/in/joemogannam</a></li>
-        <li><a href="https://github.com/mogannam">github.com/mogannam</a></li>
+        <li><a href="https://github.com/mogannam">github.com/mogannam </a></li>
     </ul>
 </footer>
 
