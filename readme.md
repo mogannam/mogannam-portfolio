@@ -16,7 +16,7 @@
 
 <a href="https://mogannam.github.io/mogannam-portfolio/"> Deployed Project</a>
 
-<p>Clone the projecct here: <em>git@github.com:mogannam/mogannam-portfolio.git</em></p>
+<p>Clone the project here: <em>git@github.com:mogannam/mogannam-portfolio.git</em></p>
 	
 ## Technologies
 Project is created with:
