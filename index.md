@@ -48,7 +48,16 @@
             <div><a href="https://mogannam.github.io/parkinglot-locator/">
                 <img src="./images/parkinglot-locator-mockup.png" alt=" a project to locate empty parking spots">
             </a></div>
+
+            <div>
+                <a href="https://github.com/mogannam/mogannam-portfolio">
+                <img  src="./images/emergency-center-usage.gif" alt="Emergency Center App">
+            </a></div>
             
+            <div>
+                <a href="https://tbellenger.github.io/playlist/">
+                <img  src="./images/Pregame.gif" alt="Pregame Music Festival Projecct">
+            </a></div>
             
             <div>
                 <a href="https://mogannam.github.io/password-generator/">
