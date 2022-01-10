@@ -50,7 +50,7 @@
             </a></div>
 
             <div>
-                <a href="https://github.com/mogannam/mogannam-portfolio">
+                <a href="https://github.com/mogannam/Emergency-Center">
                 <img  src="./images/emergency-center-usage.gif" alt="Emergency Center App">
             </a></div>
             
